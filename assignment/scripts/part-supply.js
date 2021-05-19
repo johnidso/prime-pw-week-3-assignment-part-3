@@ -89,6 +89,8 @@ console.log('9. Total supplies available is:');
 let totalParts = 0;
 for (i of supplyChanges) {
     totalParts += i;
-    console.log(totalParts);
 }
 console.log(totalParts);
+
+// note: I'm assuming here we still want the 11 we subtracted and the 25
+// we added included in the total
